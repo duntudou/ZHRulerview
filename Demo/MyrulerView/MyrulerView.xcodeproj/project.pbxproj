@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0415FBD81A5A5DE0003C1583 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0415FBD71A5A5DE0003C1583 /* Foundation.framework */; };
+		0415FBDA1A5A5DE0003C1583 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0415FBD91A5A5DE0003C1583 /* CoreGraphics.framework */; };
+		0415FBDC1A5A5DE0003C1583 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0415FBDB1A5A5DE0003C1583 /* UIKit.framework */; };
+		0415FBE21A5A5DE0003C1583 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0415FBE01A5A5DE0003C1583 /* InfoPlist.strings */; };
+		0415FBE41A5A5DE0003C1583 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0415FBE31A5A5DE0003C1583 /* main.m */; };
+		0415FBE81A5A5DE0003C1583 /* ZHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0415FBE71A5A5DE0003C1583 /* ZHAppDelegate.m */; };
+		0415FBEB1A5A5DE0003C1583 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0415FBE91A5A5DE0003C1583 /* Main.storyboard */; };
+		0415FBEE1A5A5DE0003C1583 /* ZHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0415FBED1A5A5DE0003C1583 /* ZHViewController.m */; };
+		0415FBF01A5A5DE0003C1583 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0415FBEF1A5A5DE0003C1583 /* Images.xcassets */; };
+		0415FBF71A5A5DE1003C1583 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0415FBF61A5A5DE1003C1583 /* XCTest.framework */; };
+		0415FBF81A5A5DE1003C1583 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0415FBD71A5A5DE0003C1583 /* Foundation.framework */; };
+		0415FBF91A5A5DE1003C1583 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0415FBDB1A5A5DE0003C1583 /* UIKit.framework */; };
+		0415FC011A5A5DE1003C1583 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0415FBFF1A5A5DE1003C1583 /* InfoPlist.strings */; };
+		0415FC031A5A5DE1003C1583 /* MyrulerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0415FC021A5A5DE1003C1583 /* MyrulerViewTests.m */; };
+		F1859A611B61D238003FA16E /* ZHRulerScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1859A5E1B61D238003FA16E /* ZHRulerScrollView.m */; };
+		F1859A621B61D238003FA16E /* ZHRulerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1859A601B61D238003FA16E /* ZHRulerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0415FBFA1A5A5DE1003C1583 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0415FBCC1A5A5DE0003C1583 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0415FBD31A5A5DE0003C1583;
+			remoteInfo = MyrulerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0415FBD41A5A5DE0003C1583 /* MyrulerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyrulerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0415FBD71A5A5DE0003C1583 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0415FBD91A5A5DE0003C1583 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0415FBDB1A5A5DE0003C1583 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0415FBDF1A5A5DE0003C1583 /* MyrulerView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyrulerView-Info.plist"; sourceTree = "<group>"; };
+		0415FBE11A5A5DE0003C1583 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0415FBE31A5A5DE0003C1583 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0415FBE51A5A5DE0003C1583 /* MyrulerView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyrulerView-Prefix.pch"; sourceTree = "<group>"; };
+		0415FBE61A5A5DE0003C1583 /* ZHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHAppDelegate.h; sourceTree = "<group>"; };
+		0415FBE71A5A5DE0003C1583 /* ZHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHAppDelegate.m; sourceTree = "<group>"; };
+		0415FBEA1A5A5DE0003C1583 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0415FBEC1A5A5DE0003C1583 /* ZHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHViewController.h; sourceTree = "<group>"; };
+		0415FBED1A5A5DE0003C1583 /* ZHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHViewController.m; sourceTree = "<group>"; };
+		0415FBEF1A5A5DE0003C1583 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0415FBF51A5A5DE1003C1583 /* MyrulerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyrulerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0415FBF61A5A5DE1003C1583 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0415FBFE1A5A5DE1003C1583 /* MyrulerViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyrulerViewTests-Info.plist"; sourceTree = "<group>"; };
+		0415FC001A5A5DE1003C1583 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0415FC021A5A5DE1003C1583 /* MyrulerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyrulerViewTests.m; sourceTree = "<group>"; };
+		F1859A5D1B61D238003FA16E /* ZHRulerScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHRulerScrollView.h; sourceTree = "<group>"; };
+		F1859A5E1B61D238003FA16E /* ZHRulerScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHRulerScrollView.m; sourceTree = "<group>"; };
+		F1859A5F1B61D238003FA16E /* ZHRulerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHRulerView.h; sourceTree = "<group>"; };
+		F1859A601B61D238003FA16E /* ZHRulerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHRulerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0415FBD11A5A5DE0003C1583 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0415FBDA1A5A5DE0003C1583 /* CoreGraphics.framework in Frameworks */,
+				0415FBDC1A5A5DE0003C1583 /* UIKit.framework in Frameworks */,
+				0415FBD81A5A5DE0003C1583 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0415FBF21A5A5DE1003C1583 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0415FBF71A5A5DE1003C1583 /* XCTest.framework in Frameworks */,
+				0415FBF91A5A5DE1003C1583 /* UIKit.framework in Frameworks */,
+				0415FBF81A5A5DE1003C1583 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0415FBCB1A5A5DE0003C1583 = {
+			isa = PBXGroup;
+			children = (
+				0415FBDD1A5A5DE0003C1583 /* MyrulerView */,
+				0415FBFC1A5A5DE1003C1583 /* MyrulerViewTests */,
+				0415FBD61A5A5DE0003C1583 /* Frameworks */,
+				0415FBD51A5A5DE0003C1583 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0415FBD51A5A5DE0003C1583 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0415FBD41A5A5DE0003C1583 /* MyrulerView.app */,
+				0415FBF51A5A5DE1003C1583 /* MyrulerViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0415FBD61A5A5DE0003C1583 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0415FBD71A5A5DE0003C1583 /* Foundation.framework */,
+				0415FBD91A5A5DE0003C1583 /* CoreGraphics.framework */,
+				0415FBDB1A5A5DE0003C1583 /* UIKit.framework */,
+				0415FBF61A5A5DE1003C1583 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0415FBDD1A5A5DE0003C1583 /* MyrulerView */ = {
+			isa = PBXGroup;
+			children = (
+				F1859A5C1B61D238003FA16E /* ZHRulerView */,
+				0415FBE61A5A5DE0003C1583 /* ZHAppDelegate.h */,
+				0415FBE71A5A5DE0003C1583 /* ZHAppDelegate.m */,
+				0415FBE91A5A5DE0003C1583 /* Main.storyboard */,
+				0415FBEC1A5A5DE0003C1583 /* ZHViewController.h */,
+				0415FBED1A5A5DE0003C1583 /* ZHViewController.m */,
+				0415FBEF1A5A5DE0003C1583 /* Images.xcassets */,
+				0415FBDE1A5A5DE0003C1583 /* Supporting Files */,
+			);
+			path = MyrulerView;
+			sourceTree = "<group>";
+		};
+		0415FBDE1A5A5DE0003C1583 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0415FBDF1A5A5DE0003C1583 /* MyrulerView-Info.plist */,
+				0415FBE01A5A5DE0003C1583 /* InfoPlist.strings */,
+				0415FBE31A5A5DE0003C1583 /* main.m */,
+				0415FBE51A5A5DE0003C1583 /* MyrulerView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0415FBFC1A5A5DE1003C1583 /* MyrulerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				0415FC021A5A5DE1003C1583 /* MyrulerViewTests.m */,
+				0415FBFD1A5A5DE1003C1583 /* Supporting Files */,
+			);
+			path = MyrulerViewTests;
+			sourceTree = "<group>";
+		};
+		0415FBFD1A5A5DE1003C1583 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0415FBFE1A5A5DE1003C1583 /* MyrulerViewTests-Info.plist */,
+				0415FBFF1A5A5DE1003C1583 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1859A5C1B61D238003FA16E /* ZHRulerView */ = {
+			isa = PBXGroup;
+			children = (
+				F1859A5D1B61D238003FA16E /* ZHRulerScrollView.h */,
+				F1859A5E1B61D238003FA16E /* ZHRulerScrollView.m */,
+				F1859A5F1B61D238003FA16E /* ZHRulerView.h */,
+				F1859A601B61D238003FA16E /* ZHRulerView.m */,
+			);
+			path = ZHRulerView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0415FBD31A5A5DE0003C1583 /* MyrulerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0415FC061A5A5DE1003C1583 /* Build configuration list for PBXNativeTarget "MyrulerView" */;
+			buildPhases = (
+				0415FBD01A5A5DE0003C1583 /* Sources */,
+				0415FBD11A5A5DE0003C1583 /* Frameworks */,
+				0415FBD21A5A5DE0003C1583 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyrulerView;
+			productName = MyrulerView;
+			productReference = 0415FBD41A5A5DE0003C1583 /* MyrulerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0415FBF41A5A5DE1003C1583 /* MyrulerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0415FC091A5A5DE1003C1583 /* Build configuration list for PBXNativeTarget "MyrulerViewTests" */;
+			buildPhases = (
+				0415FBF11A5A5DE1003C1583 /* Sources */,
+				0415FBF21A5A5DE1003C1583 /* Frameworks */,
+				0415FBF31A5A5DE1003C1583 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0415FBFB1A5A5DE1003C1583 /* PBXTargetDependency */,
+			);
+			name = MyrulerViewTests;
+			productName = MyrulerViewTests;
+			productReference = 0415FBF51A5A5DE1003C1583 /* MyrulerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0415FBCC1A5A5DE0003C1583 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZH;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = hly;
+				TargetAttributes = {
+					0415FBF41A5A5DE1003C1583 = {
+						TestTargetID = 0415FBD31A5A5DE0003C1583;
+					};
+				};
+			};
+			buildConfigurationList = 0415FBCF1A5A5DE0003C1583 /* Build configuration list for PBXProject "MyrulerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0415FBCB1A5A5DE0003C1583;
+			productRefGroup = 0415FBD51A5A5DE0003C1583 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0415FBD31A5A5DE0003C1583 /* MyrulerView */,
+				0415FBF41A5A5DE1003C1583 /* MyrulerViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0415FBD21A5A5DE0003C1583 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0415FBF01A5A5DE0003C1583 /* Images.xcassets in Resources */,
+				0415FBE21A5A5DE0003C1583 /* InfoPlist.strings in Resources */,
+				0415FBEB1A5A5DE0003C1583 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0415FBF31A5A5DE1003C1583 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0415FC011A5A5DE1003C1583 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0415FBD01A5A5DE0003C1583 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1859A621B61D238003FA16E /* ZHRulerView.m in Sources */,
+				F1859A611B61D238003FA16E /* ZHRulerScrollView.m in Sources */,
+				0415FBEE1A5A5DE0003C1583 /* ZHViewController.m in Sources */,
+				0415FBE81A5A5DE0003C1583 /* ZHAppDelegate.m in Sources */,
+				0415FBE41A5A5DE0003C1583 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0415FBF11A5A5DE1003C1583 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0415FC031A5A5DE1003C1583 /* MyrulerViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0415FBFB1A5A5DE1003C1583 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0415FBD31A5A5DE0003C1583 /* MyrulerView */;
+			targetProxy = 0415FBFA1A5A5DE1003C1583 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0415FBE01A5A5DE0003C1583 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0415FBE11A5A5DE0003C1583 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0415FBE91A5A5DE0003C1583 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0415FBEA1A5A5DE0003C1583 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0415FBFF1A5A5DE1003C1583 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0415FC001A5A5DE1003C1583 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0415FC041A5A5DE1003C1583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0415FC051A5A5DE1003C1583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0415FC071A5A5DE1003C1583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyrulerView/MyrulerView-Prefix.pch";
+				INFOPLIST_FILE = "MyrulerView/MyrulerView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0415FC081A5A5DE1003C1583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyrulerView/MyrulerView-Prefix.pch";
+				INFOPLIST_FILE = "MyrulerView/MyrulerView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0415FC0A1A5A5DE1003C1583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyrulerView.app/MyrulerView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyrulerView/MyrulerView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MyrulerViewTests/MyrulerViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0415FC0B1A5A5DE1003C1583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyrulerView.app/MyrulerView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyrulerView/MyrulerView-Prefix.pch";
+				INFOPLIST_FILE = "MyrulerViewTests/MyrulerViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0415FBCF1A5A5DE0003C1583 /* Build configuration list for PBXProject "MyrulerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0415FC041A5A5DE1003C1583 /* Debug */,
+				0415FC051A5A5DE1003C1583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0415FC061A5A5DE1003C1583 /* Build configuration list for PBXNativeTarget "MyrulerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0415FC071A5A5DE1003C1583 /* Debug */,
+				0415FC081A5A5DE1003C1583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0415FC091A5A5DE1003C1583 /* Build configuration list for PBXNativeTarget "MyrulerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0415FC0A1A5A5DE1003C1583 /* Debug */,
+				0415FC0B1A5A5DE1003C1583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0415FBCC1A5A5DE0003C1583 /* Project object */;
+}
